@@ -10,7 +10,7 @@ import React from "react";
  * - Magic wand spells
  */
 export const renderHarry = (playerY: number, beams: any[], PLAYER_W: number, PLAYER_H: number) => {
-  const centerX = 30 + PLAYER_W/2, centerY = playerY + PLAYER_H/2;
+  const centerX = 30 + PLAYER_W/2;
   return (
     <g>
       <ellipse cx={centerX} cy={playerY + PLAYER_H - 8} rx={PLAYER_W/2 + 4} ry={3} fill="#8B4513" />
