@@ -16,7 +16,9 @@ A magical game where you play as Harry Potter flying through obstacles and defea
 2. **Start the Backend**
    ```bash
    cd backend
-   # Note: you might need to enable a virtual environment. Ex: source your_environment_name/bin/activate
+   # Note: you might need to enable a virtual environment.
+   python3 -m venv .venv 
+   source .venv/bin/activate
    pip3 install fastapi uvicorn pydantic
    python3 app.py
    ```
